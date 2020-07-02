@@ -27,6 +27,20 @@
     article h3 {
         margin-top: 30px;
     }
+    
+    /*add animation*/
+    .avatar img:hover {
+        width: 160px;
+        margin-bottom: unset;
+        cursor: pointer;
+    }
+
+    .avatar:hover {
+        width: 50%;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    /*add animation-end*/
 }
 
 /* Untuk Smartphone */
@@ -49,4 +63,17 @@
     .avatar img {
         width: 200px;
     }
+    
+    /*add animation*/
+    .avatar img:hover {
+        width: 210px;
+        margin-bottom: unset;
+        cursor: pointer;
+    }
+
+    .avatar:hover {
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    /*add animation-end*/
 }
