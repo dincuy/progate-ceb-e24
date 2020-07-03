@@ -8,6 +8,77 @@ body {
     font-family: 'Josefin Sans', sans-serif;
 }
 
+/* start header */
+li {
+    list-style: none;
+}
+
+header {
+    position: relative;
+    height: 150px;
+    width: 60%;
+    text-align: center;
+    background-color: white;
+    color: black;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    background: rgba(93, 129, 206, 0.8);
+}
+
+.header-left {
+    width: 40%;
+    float: left;
+}
+
+.header-left ul {
+    margin-top: 60px;
+    display: flex;
+}
+
+.header-left li {
+    width: 50%;
+    flex-grow: 1;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 0.5s;
+}
+
+.header-right {
+    float: right;
+    width: 40%;
+}
+
+.header-right ul {
+    margin-top: 60px;
+    display: flex;
+}
+
+.header-right li {
+    width: 50%;
+    flex-grow: 1;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 0.5s;
+}
+
+.header-center {
+    position: absolute;
+    top: 15px;
+    left: 40%;
+    right: 40%;
+}
+
+header li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header li a:hover {
+    color: white;
+}
+/* enda header */
+
 /*start content main*/
 .main-container {
     margin: auto;
@@ -92,3 +163,100 @@ article p {
 }
 /*add animation-end*/
 /*end content main*/
+
+/* add main */
+a {
+    text-decoration: none;
+}
+
+.content-wrapper {
+    margin: 0 auto;
+    margin-top: 60px;
+    width: 100%;
+    text-align: center;
+    color: #444444;
+}
+
+.container-flex {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contents {
+    width: 25%;
+}
+
+.content {
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    opacity: 0.7;
+}
+
+.content:hover {
+    border-radius: 25px;
+    opacity: 1;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.content img {
+    width: 100%;
+}
+/* add main end */
+
+/* start footer */
+footer {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.massage-container a {
+    margin: 0 5px;
+    font-weight: bold;
+    color: #444444;
+}
+
+.massage-container a:hover {
+    text-shadow: 0 1px 2px #5c80ce;
+    color: black;
+
+}
+
+.massage {
+    margin-bottom: 30px;
+}
+
+.site-footer {
+    margin: 0 auto;
+}
+
+.social-wrapper {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.social-wrapper ul {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.social-wrapper li {
+    margin: 0 10px;
+}
+
+.social-wrapper img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.social-wrapper a {
+    opacity: 0.7;
+}
+
+.social-wrapper a:hover {
+    opacity: 1;
+}
+/* end footer */
